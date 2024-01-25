@@ -1,4 +1,5 @@
 <?php
+namespace Autoloader;
 class Autoloader
 {
     public static function registrate(string $dir): void

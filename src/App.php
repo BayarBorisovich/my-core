@@ -3,7 +3,7 @@
 use Container\Container;
 use Request\Request;
 use Service\LoggerService;
-
+namespace App;
 class App
 {
     private Container $container;
