@@ -1,0 +1,9 @@
+{
+    "name": "bayar/my-core",
+    "autoload": {
+        "psr-4": {
+            "Bayar\\MyCore\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -1,8 +1,10 @@
 <?php
 
+namespace Container;
 class Container
 {
     private array $services;
+
     public function __construct(array $dependencies)
     {
         $this->services = $dependencies;
@@ -12,6 +14,7 @@ class Container
     {
         $this->services[$className] = $callback;
     }
+
     public function get(string $className): object
     {
         if (!isset($this->services[$className])) {
