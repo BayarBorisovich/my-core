@@ -1,6 +1,6 @@
 <?php
 
-namespace Container\Container;
+namespace Bayar\MyCore\Container;
 class Container
 {
     private array $services;

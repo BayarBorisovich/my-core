@@ -1,9 +1,10 @@
 <?php
 
-use Container\Container;
+use Bayar\MyCore\Container;
 use Request\Request;
 use Service\LoggerService;
-namespace App;
+
+namespace Bayar\MyCore;
 class App
 {
     private Container $container;

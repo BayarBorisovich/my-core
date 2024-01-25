@@ -1,6 +1,6 @@
 <?php
 
-namespace Model\Model;
+namespace Bayar\MyCore\Model;
 class Model
 {
     protected static PDO $PDO;

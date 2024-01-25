@@ -1,5 +1,5 @@
 <?php
-namespace Autoloader;
+namespace Bayar\MyCore;
 class Autoloader
 {
     public static function registrate(string $dir): void
